@@ -2,8 +2,10 @@ package com.zyz.qlnuweather.util;
 
 public class HttpCallbackListener {
 	
-	void onFinish(String response);
+	public void onFinish(String response) {
+	}
 
-	void onError(Exception e);
+	public void onError(Exception e) {
+	}
 
 }
